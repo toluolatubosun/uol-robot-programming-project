@@ -1,0 +1,185 @@
+[
+    {
+        "world": "World_S",
+        "world_id": "S",
+        "world_file": "src/john_bot/worlds/World_S.world",
+        "objects": [
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_1",
+                "position": {
+                    "x": -2.286370,
+                    "y": 0.705907,
+                    "z": 0.163850
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_1",
+                "position": {
+                    "x": -4.060130,
+                    "y": -1.440520,
+                    "z": 0.0
+                }
+            }
+        ]
+    },
+    {
+        "world": "World_A",
+        "world_id": "A",
+        "world_file": "src/john_bot/worlds/World_A.world",
+        "objects": [
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_1",
+                "position": {
+                    "x": -8.45536,
+                    "y": 0.104794,
+                    "z": 0.171692
+                }
+            },
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_2",
+                "position": {
+                    "x": -4.38352,
+                    "y": 8.17841,
+                    "z": 0.171692
+                }
+            },
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_3",
+                "position": {
+                    "x": 8.79104,
+                    "y": -8.35248,
+                    "z": 0.171692
+                }
+            },
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_4",
+                "position": {
+                    "x": 8.42742,
+                    "y": 8.49799,
+                    "z": 0.171692
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_1",
+                "position": {
+                    "x": -8.1412,
+                    "y": -8.38339,
+                    "z": 0.0
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_2",
+                "position": {
+                    "x": 5.11903,
+                    "y": 1.53495,
+                    "z": 0.0
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_3",
+                "position": {
+                    "x": 1.9159,
+                    "y": 8.85731,
+                    "z": 0.0
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_4",
+                "position": {
+                    "x": 1.1009,
+                    "y": -8.75259,
+                    "z": 0.0
+                }
+            }
+        ]
+    },
+    {
+        "world": "World_B",
+        "world_id": "B",
+        "world_file": "src/john_bot/worlds/World_B.world",
+        "objects": [
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_1",
+                "position": {
+                    "x": 3.79711,
+                    "y": 7.35478,
+                    "z": 0.139414
+                }
+            },
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_2",
+                "position": {
+                    "x": 7.45675,
+                    "y": -1.75994,
+                    "z": 0.139285
+                }
+            },
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_3",
+                "position": {
+                    "x": -7.40813,
+                    "y": 1.87307,
+                    "z": 0.139285
+                }
+            },
+            {
+                "type": "FirstAidBox",
+                "name": "first_aid_box_4",
+                "position": {
+                    "x": -4.29141,
+                    "y": -2.84285,
+                    "z": 0.139285
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_1",
+                "position": {
+                    "x": -4.60104,
+                    "y": -8.35088,
+                    "z": 0.0
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_2",
+                "position": {
+                    "x": 2.29,
+                    "y": -7.20915,
+                    "z": 0.0
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_3",
+                "position": {
+                    "x": 7.84794,
+                    "y": 7.50253,
+                    "z": 0.0
+                }
+            },
+            {
+                "type": "FireExtinguisher",
+                "name": "fire_extinguisher_4",
+                "position": {
+                    "x": -2.61955,
+                    "y": 7.27716,
+                    "z": 0.0
+                }
+            }
+        ]
+    }
+]

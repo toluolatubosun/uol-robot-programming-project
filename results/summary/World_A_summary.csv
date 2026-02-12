@@ -1,0 +1,6 @@
+trial_id,total_detections,fire_extinguisher_count,first_aid_box_count,correct_detections,false_detections,missed_objects_count,precision,recall,f1_score,avg_confidence,avg_position_error_m,exploration_time_s,verification_time_s,total_time_s,map_coverage_pct
+1,8,4,4,8,0,0,1.0,1.0,1.0,0.891,0.113,1536.0,1208.4,2744.4,95.71
+2,7,3,4,7,0,1,1.0,0.875,0.933,0.912,0.11,1393.3,1060.8,2454.1,86.65
+3,8,4,4,8,0,0,1.0,1.0,1.0,0.883,0.122,1552.1,1310.0,2862.1,88.18
+4,8,4,4,8,0,0,1.0,1.0,1.0,0.876,0.106,1757.0,1210.3,2967.3,93.98
+Mean ± Std,7.8 ± 0.4,3.8 ± 0.4,4.0 ± 0.0,7.8 ± 0.4,0.0 ± 0.0,0.2 ± 0.4,1.000 ± 0.000,0.969 ± 0.054,0.983 ± 0.029,0.890 ± 0.014,0.1 ± 0.0,1559.6 ± 129.6,1197.4 ± 88.9,2757.0 ± 191.8,91.1 ± 3.8

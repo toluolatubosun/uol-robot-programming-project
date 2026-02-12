@@ -1,0 +1,76 @@
+{
+    "world_id": "B",
+    "trial_id": 4,
+    "exploration_start_time": 1767725863,
+    "exploration_end_time": 1767727030,
+    "exploration_duration_seconds": 1166.387795706,
+    "clustering_threshold": 2.0,
+    "total_detections": 6,
+    "detections": [
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": -4.447451656234018,
+                "y": -2.9430837079292314,
+                "z": 0.13774478843662274
+            },
+            "confidence": 0.9319886565208435,
+            "timestamp": 1767725975
+        },
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": -4.678659661685652,
+                "y": -8.311384837231696,
+                "z": 0.21258706625784193
+            },
+            "confidence": 0.8763943910598755,
+            "timestamp": 1767725889
+        },
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": -7.272899440746296,
+                "y": 1.8776757127946395,
+                "z": 0.1571876551837438
+            },
+            "confidence": 0.9245928525924683,
+            "timestamp": 1767726247
+        },
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": -2.710210049711572,
+                "y": 7.298845585383573,
+                "z": 0.21235090492594882
+            },
+            "confidence": 0.8388674855232239,
+            "timestamp": 1767726300
+        },
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": 3.7016479230119437,
+                "y": 7.20318294874772,
+                "z": 0.1406443240914876
+            },
+            "confidence": 0.9197755455970764,
+            "timestamp": 1767726706
+        },
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": 7.804072710533295,
+                "y": 7.443675835918813,
+                "z": 0.20863820073997552
+            },
+            "confidence": 0.8998584151268005,
+            "timestamp": 1767725959
+        }
+    ],
+    "verification_complete": true,
+    "verification_start_time": 3597,
+    "verification_end_time": 4605,
+    "verification_duration_seconds": 1007.8,
+    "map_coverage_percentage": 80.89
+}

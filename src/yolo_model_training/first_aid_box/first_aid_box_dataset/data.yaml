@@ -1,0 +1,12 @@
+names:
+- FirstAidBox
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: medical-first-aid-equipment-30-y8dpr
+  url: https://universe.roboflow.com/dip-project-cktfe/medical-first-aid-equipment-30-y8dpr/dataset/1
+  version: 1
+  workspace: dip-project-cktfe
+test: ../test/images
+train: ../train/images
+val: ../valid/images

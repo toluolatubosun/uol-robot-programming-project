@@ -1,0 +1,96 @@
+{
+    "world_id": "A",
+    "trial_id": 1,
+    "exploration_start_time": 1767623535,
+    "exploration_end_time": 1767625071,
+    "exploration_duration_seconds": 1535.990415199,
+    "clustering_threshold": 2.0,
+    "total_detections": 8,
+    "detections": [
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": 5.146369998973416,
+                "y": 1.5276552118423439,
+                "z": 0.21197243295921225
+            },
+            "confidence": 0.8436937928199768,
+            "timestamp": 1767623575
+        },
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": 1.9305070795160115,
+                "y": 8.82039604963517,
+                "z": 0.21918700643957734
+            },
+            "confidence": 0.9102962017059326,
+            "timestamp": 1767623646
+        },
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": -4.247617310656363,
+                "y": 8.154706608499247,
+                "z": 0.19987717180968462
+            },
+            "confidence": 0.9307652115821838,
+            "timestamp": 1767624074
+        },
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": -8.31665532975412,
+                "y": 0.17874986366520706,
+                "z": 0.21872363930076513
+            },
+            "confidence": 0.9101421236991882,
+            "timestamp": 1767623804
+        },
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": -8.137166783555204,
+                "y": -8.335499268936971,
+                "z": 0.20943920040515918
+            },
+            "confidence": 0.8694454431533813,
+            "timestamp": 1767624284
+        },
+        {
+            "class_id": "0:FireExtinguisher",
+            "position": {
+                "x": 1.0390949667549407,
+                "y": -8.699376009324535,
+                "z": 0.20391540171408876
+            },
+            "confidence": 0.8561336994171143,
+            "timestamp": 1767623710
+        },
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": 8.652950684473327,
+                "y": -8.315701109262367,
+                "z": 0.216544674381051
+            },
+            "confidence": 0.9097802639007568,
+            "timestamp": 1767624187
+        },
+        {
+            "class_id": "1:FirstAidBox",
+            "position": {
+                "x": 8.31455007991904,
+                "y": 8.256850254163982,
+                "z": 0.2098283628176033
+            },
+            "confidence": 0.9016399383544922,
+            "timestamp": 1767624021
+        }
+    ],
+    "verification_complete": true,
+    "verification_start_time": 4841,
+    "verification_end_time": 6049,
+    "verification_duration_seconds": 1208.4,
+    "map_coverage_percentage": 95.71
+}

@@ -1,0 +1,2 @@
+world_id,trial_count,total_detections,fire_extinguisher_count,first_aid_box_count,correct_detections,false_detections,missed_objects_count,precision,recall,f1_score,avg_confidence,avg_position_error_m,exploration_time_s,verification_time_s,total_time_s,map_coverage_pct
+All,8,7.6 ± 0.7,3.8 ± 0.4,3.9 ± 0.3,7.6 ± 0.7,0.0 ± 0.0,0.4 ± 0.7,1.000 ± 0.000,0.953 ± 0.087,0.974 ± 0.049,0.898 ± 0.013,0.1 ± 0.0,1490.9 ± 192.2,1213.5 ± 151.1,2704.4 ± 325.1,92.1 ± 5.7

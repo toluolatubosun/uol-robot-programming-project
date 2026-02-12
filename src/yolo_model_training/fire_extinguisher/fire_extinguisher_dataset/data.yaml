@@ -1,0 +1,13 @@
+names:
+- FireExtinguisher
+- not
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: fire-extinguisher-deefc
+  url: https://universe.roboflow.com/vatly/fire-extinguisher-deefc/dataset/2
+  version: 2
+  workspace: vatly
+test: ../test/images
+train: ../train/images
+val: ../valid/images
