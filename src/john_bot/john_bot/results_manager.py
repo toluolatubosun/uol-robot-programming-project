@@ -28,6 +28,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy
 from geometry_msgs.msg import PoseArray
 from std_msgs.msg import Header, String
+from explore_lite.msg import ExploreStatus
 from vision_msgs.msg import Detection3DArray
 
 
@@ -70,7 +71,7 @@ class ResultsManager(Node):
         # Subscribe to exploration status
         status_qos = QoSProfile(depth=10, durability=DurabilityPolicy.TRANSIENT_LOCAL)
         self.status_sub = self.create_subscription(
-            String,
+            ExploreStatus,
             '/explore/status',
             self.status_callback,
             status_qos
@@ -100,9 +101,9 @@ class ResultsManager(Node):
     
     def status_callback(self, msg):
         """React to exploration status"""
-        self.get_logger().info(f'Exploration status: {msg.data}')
+        self.get_logger().info(f'Exploration status: {msg.status}')
         
-        if msg.data == "returned_to_origin" and not self.final_save_done:
+        if msg.status == "returned_to_origin" and not self.final_save_done:
             self.get_logger().info('Exploration complete - doing final save and stopping periodic saves')
             self.save_results()
             self.final_save_done = True

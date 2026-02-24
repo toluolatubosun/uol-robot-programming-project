@@ -21,6 +21,7 @@ import rclpy
 import subprocess
 from rclpy.node import Node
 from std_msgs.msg import String
+from explore_lite.msg import ExploreStatus
 from rclpy.qos import QoSProfile, DurabilityPolicy
 
 
@@ -50,7 +51,7 @@ class ExplorationMonitor(Node):
         # Subscribe to exploration status
         status_qos = QoSProfile(depth=10, durability=DurabilityPolicy.TRANSIENT_LOCAL)
         self.status_sub = self.create_subscription(
-            String,
+            ExploreStatus,
             '/explore/status',
             self.status_callback,
             status_qos
@@ -73,10 +74,10 @@ class ExplorationMonitor(Node):
     
     def status_callback(self, msg):
         """Handle exploration status updates"""
-        self.get_logger().info(f'Exploration status: {msg.data}')
+        self.get_logger().info(f'Exploration status: {msg.status}')
         
         # Save final map when robot returns to origin
-        if msg.data == "returned_to_origin" and not self.final_save_done:
+        if msg.status == "returned_to_origin" and not self.final_save_done:
             self.get_logger().info('ROBOT RETURNED TO ORIGIN - SAVING FINAL MAP')
             self.save_map(final=True)
     

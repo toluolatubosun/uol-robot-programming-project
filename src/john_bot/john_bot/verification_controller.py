@@ -30,6 +30,7 @@ from rclpy.node import Node
 from rclpy.action import ActionClient
 from rclpy.qos import QoSProfile, DurabilityPolicy
 from std_msgs.msg import String
+from explore_lite.msg import ExploreStatus
 from std_srvs.srv import SetBool
 from nav2_msgs.action import NavigateToPose
 from geometry_msgs.msg import PoseStamped
@@ -63,7 +64,7 @@ class VerificationController(Node):
         # Subscribe to exploration status
         status_qos = QoSProfile(depth=10, durability=DurabilityPolicy.TRANSIENT_LOCAL)
         self.status_sub = self.create_subscription(
-            String, '/explore/status', self.status_callback, status_qos)
+            ExploreStatus, '/explore/status', self.status_callback, status_qos)
         
         # Subscribe to trial config (TRANSIENT_LOCAL to receive late messages)
         config_qos = QoSProfile(depth=10, durability=DurabilityPolicy.TRANSIENT_LOCAL)
@@ -113,9 +114,9 @@ class VerificationController(Node):
     
     def status_callback(self, msg):
         """React to exploration status"""
-        self.get_logger().info(f'Status: {msg.data}')
+        self.get_logger().info(f'Status: {msg.status}')
         
-        if msg.data == "returned_to_origin" and not self.verification_active:
+        if msg.status == "returned_to_origin" and not self.verification_active:
             self.get_logger().info('STARTING VERIFICATION PHASE')
             threading.Thread(target=self.start_verification, daemon=True).start()
     
