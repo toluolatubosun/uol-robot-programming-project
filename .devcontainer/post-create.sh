@@ -32,6 +32,7 @@ sudo apt-get install -y ros-humble-vision-msgs ros-humble-image-geometry ros-hum
 # Clone explore_lite from source (always get latest)
 cd src
 # Remove if exists to get fresh clone
+# rm -rf m-explore-ros2
 rm -rf m-explore-ros2-plus
 # git clone https://github.com/robo-friends/m-explore-ros2.git
 git clone https://github.com/toluolatubosun/m-explore-ros2-plus.git
