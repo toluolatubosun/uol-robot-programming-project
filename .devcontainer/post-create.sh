@@ -34,7 +34,7 @@ cd src
 # Remove if exists to get fresh clone
 rm -rf m-explore-ros2
 # git clone https://github.com/robo-friends/m-explore-ros2.git
-git clone https://github.com/toluolatubosun/m-explore-ros2.git
+git clone https://github.com/toluolatubosun/m-explore-ros2-plus.git
 cd ..
 
 colcon build --symlink-install --continue-on-error || true
