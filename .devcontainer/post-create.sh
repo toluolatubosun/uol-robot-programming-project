@@ -24,7 +24,7 @@ source /opt/ros/lcas/install/setup.bash
 # Update package lists
 sudo apt-get update
 # Install ROS package
-sudo apt-get install -y ros-humble-vision-msgs ros-humble-image-geometry ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-slam-toolbox
+sudo apt-get install -y ros-humble-vision-msgs ros-humble-image-geometry ros-humble-navigation2  ros-humble-nav2-bringup ros-humble-slam-toolbox ros-humble-tf2-ros ros-humble-tf2-geometry-msgs
 
 # Install Python dependencies for YOLO and other tools
 /usr/bin/python3 -m pip install "numpy<2" opencv-python python-dotenv ultralytics roboflow -q || true
